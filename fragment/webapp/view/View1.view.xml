@@ -1,0 +1,10 @@
+<mvc:View controllerName="fragment.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m">
+    <Page id="page" title="Load Fragment">
+   <VBox>
+        <Button id = "buttoncss" text="Open Product Dialog" press="onOpenDialog" />
+    </VBox>
+    </Page> 
+</mvc:View>

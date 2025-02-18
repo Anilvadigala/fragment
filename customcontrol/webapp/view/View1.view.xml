@@ -1,0 +1,11 @@
+<mvc:View controllerName="customcontrol.controller.View1"
+xmlns:Custom="customcontrol.control"
+xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="Custom Control">
+<content>
+<Custom:rating  valueSubmit = "onRatingChanged"/>
+</content>
+    </Page>
+</mvc:View>
